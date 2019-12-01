@@ -1,0 +1,12 @@
+Dec 01 22:29:26.413 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 01 22:29:26.413 HYPERVISOR: Started on IP = 192.168.112.1, TCP port = 58971.
+Dec 01 22:29:26.898 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 01 22:29:26.898 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Trickovic\GNS3\projects\Seminarski DMS\project-files\dynamips 
+Dec 01 22:29:26.898 GENERAL: working_dir=C:\Users\Trickovic\GNS3\projects\Seminarski DMS\project-files\dynamips
+Dec 01 22:29:26.898 HYPERVISOR: exec_cmd: ethsw create SW-B 
+Dec 01 22:29:28.100 HYPERVISOR: exec_cmd: nio create_udp udp-6e730228-6d03-4ba4-96cc-d6eddfc28f6a 10043 192.168.112.1 10042 
+Dec 01 22:29:28.100 HYPERVISOR: exec_cmd: ethsw add_nio SW-B udp-6e730228-6d03-4ba4-96cc-d6eddfc28f6a 
+Dec 01 22:29:28.116 HYPERVISOR: exec_cmd: ethsw set_access_port SW-B udp-6e730228-6d03-4ba4-96cc-d6eddfc28f6a 1 
+Dec 01 22:29:28.163 HYPERVISOR: exec_cmd: nio create_udp udp-f06bd092-149b-4efb-81d3-badf004c5bda 10044 192.168.112.1 10045 
+Dec 01 22:29:28.163 HYPERVISOR: exec_cmd: ethsw add_nio SW-B udp-f06bd092-149b-4efb-81d3-badf004c5bda 
+Dec 01 22:29:28.179 HYPERVISOR: exec_cmd: ethsw set_access_port SW-B udp-f06bd092-149b-4efb-81d3-badf004c5bda 1 
